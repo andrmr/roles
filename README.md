@@ -1,7 +1,9 @@
 ## Role inclusion app
 
 Async REST server, based on [restinio](https://github.com/Stiffstream/restinio) for HTTP and [nlohmann](https://github.com/nlohmann/json) for JSON.  
-Compiled and tested with VS 2022 17.5 with /std:c++ latest.  
+The client is based on [restclient-cpp](https://github.com/mrtazz/restclient-cpp) and the unit tests are written in [gtest](https://github.com/google/googletest).  
+
+:warning: Compiled and tested with **VS 2022 17.5 /std:c++ latest**  
   
 ### Requirements:
 * Produce a list of all the Roles and their included roles.
